@@ -107,25 +107,25 @@ const Contact = () => {
         setSuccess(false);
 
         emailjs.send(
-            "service_9eplm7r",
-            "template_ldad3y6",
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
             {
                 email: form.email,
                 subject: form.subject,
                 message: form.message
             },
-            "iVvYDkRCWqI-9Mp3-"
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         )
-        .then(() => {
-            setLoading(false);
-            setSuccess(true);
-            setForm({ email: "", subject: "", message: "" });
-        })
-        .catch((err) => {
-            setLoading(false);
-            console.error(err);
-            setErrorMsg("Failed to send message. Please try again later.");
-        });
+            .then(() => {
+                setLoading(false);
+                setSuccess(true);
+                setForm({ email: "", subject: "", message: "" });
+            })
+            .catch((err) => {
+                setLoading(false);
+                console.error(err);
+                setErrorMsg("Failed to send message. Please try again later.");
+            });
     };
 
     return (
@@ -214,9 +214,9 @@ const Contact = () => {
                         sx={inputStyles}
                     />
 
-                    <Button 
-                        type="submit" 
-                        variant="contained" 
+                    <Button
+                        type="submit"
+                        variant="contained"
                         disabled={loading}
                         sx={{
                             mt: 2,
