@@ -10,7 +10,7 @@ const EXPERIENCE_LIST = [
         name: 'Loyalty Loop',
         startTime: 'July 2024',
         endTime: 'Current',
-        logo: './public/logos/loyalty-loop-logo.jpeg',
+        logo: './logos/loyalty-loop-logo.jpeg',
         description: `
             Contribute to the development of LoyaltyLoop's SaaS platform by building, testing, 
             and maintaining front-end features and enhancements, collaborating with a small 
@@ -32,7 +32,7 @@ const EXPERIENCE_LIST = [
         name: 'Launch Academy',
         startTime: 'October 2023',
         endTime: 'February 2024',
-        logo: './public/logos/launch-academy-logo.png',
+        logo: './logos/launch-academy-logo.png',
         description: `
             Utilized frameworks like React and Express to integrate into self-made web applications, 
             implemented Test Driven Development methodologies, and collaborated with cohort members 
@@ -55,7 +55,7 @@ const EXPERIENCE_LIST = [
         name: 'Federal Electronics',
         startTime: 'June 2022',
         endTime: 'October 2023',
-        logo: './public/logos/federal-electronics-logo.png',
+        logo: './logos/federal-electronics-logo.png',
         description: `
             Managedsecurity operations for government contracts in a NIST-compliant environment, 
             utilizing SIEM tools like Atera, Webroot, and SentinelOne to track and administer 
@@ -76,7 +76,7 @@ const EXPERIENCE_LIST = [
         name: 'E.L Harvey & Sons',
         startTime: 'January 2021',
         endTime: 'June 2022',
-        logo: './public/logos/el-harvey-logo.png',
+        logo: './logos/el-harvey-logo.png',
         description: `
             Provided comprehensive IT support for E.L. Harvey employees, including responding to help 
             desk tickets, administering user accounts and overseeing hardware and software, while 
@@ -96,7 +96,7 @@ const EXPERIENCE_LIST = [
         name: 'MIT',
         startTime: 'April 2019',
         endTime: 'January 2020',
-        logo: './public/logos/mit-logo.png',
+        logo: './logos/mit-logo.png',
         description: `
             Managed support tickets in conjunction with MIT staff, conducting thorough evaluations to 
             identify root causes and collaborating with team members to achieve 100% resolution. 
@@ -118,7 +118,7 @@ const EDUCATION_LIST = [
         key: 'wentworth-key',
         name: 'Wentworth Institute of Technology',
         award: 'Bachelor of Computer Science',
-        logo: './public/logos/wentworth-logo.jpeg',
+        logo: './logos/wentworth-logo.jpeg',
         startYear: '2016',
         endYear: '2020',
         skills: [
