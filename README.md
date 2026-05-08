@@ -1,4 +1,4 @@
-# 🚀 Corey Pierce's Personal Dev Site
+# 🚀 My Personal Dev Site
 
 Welcome to my little corner of the internet! This is where I showcase my projects, share my experiences, and experiment with new technologies.
 
